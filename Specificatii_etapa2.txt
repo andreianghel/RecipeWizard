@@ -1,0 +1,39 @@
+Proiectul este Recipe Wizard.
+
+O aplicatie de mobil prin care in functie de alimente selectezi dintr-o lista, iti va genera sugestii, retete, link-uri catre retete.
+
+Proiectul consta intr-un client reprezentat de o aplicatie Android ce va comunica cu un server (scris in Python) ce controleaza o baza de date.
+
+Clientul va trimite cererile catre server reprezentate de form-uri html, si de asemenea va primi raspunsuri tot asa.
+
+
+Clientul va trimite message referitor la:
+
+Inscriere, autentificare, trimitere ingrediente selectate, history- salveaza configuratia curenta, history – get pe o perioada;
+
+
+
+Planificarea gandita de noi:
+
+
+S1. Familiarizare cu tehnologii si IDE
+
+S2. Schelet client: partea de login
+
+S3. Schelet server , partea de login + tabele necesare in db → primul livrabil server
+
+S4. In client, implementare interfata alegere ingrediente+ cereri catre server cu optiunile alese
+
+S5. In server, citirea si interpretarea cererilor (logica serverului practic) → livrabil 2 server
+
+S6. Part 3 in client: grocerry planner +noul tip de cere catre server
+
+S7. Implementare partea de history (server + client) → livrabil client si server
+
+S8. Code refractoring, bugfix
+
+S9. Partea artistica, decizii de design a interfetei aplicatiei → livrabil
+
+S10. Documentatie
+
+
