@@ -1,1 +1,1 @@
-Server pat of the project.
+Server part of the project.

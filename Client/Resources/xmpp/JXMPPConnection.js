@@ -283,8 +283,9 @@ JXMPPConnection.prototype.disconnect = function() {
 	Ti.API.log("Disconnecting: " + request);
 	this._sendRaw(request);
 	this._handleEvent('ondisconnect');
-	//this._req.close();
-	//this._req=null;
+	if (this._req==null);else
+	this._req.close();
+	this._req=null;
 };
 
 /**
